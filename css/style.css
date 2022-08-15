@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+header{
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.logo{
+    width: 400px;
+    
+}
+main{
+    width: 500px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 5px;
+    margin-top: 20px;
+  
+    
+}
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 47px;
+    word-spacing: 10px;
+    font-weight: 200px;
+    font-style: oblique;
+    text-align: center;
+    width: 2000px;
+}
+.foto-adam{
+    width: 500px;
+}
+.intro{
+    width: 600px;
+    text-align: center;
+    margin: 20px;
+}
+.texto{
+    width: 600px;
+    text-align: center;
+}
+.cine-hits{
+    margin: 50px;
+    width:1600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer{
+height: 40px;
+background-color: red;
+width: 100%;
+display: flex;
+justify-content: center;
+margin-inline-end: 0;
+}
+.copyright{
+    font-style: italic;
+    align-items: center;
+    margin: 10px;
+
+}
